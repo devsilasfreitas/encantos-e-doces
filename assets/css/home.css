@@ -3,6 +3,8 @@
     height: 100dvh;
     background-size: cover;
     background-position: 60% center;
+    position: relative;
+    overflow: hidden;
 }
 
 #home header {
@@ -31,6 +33,8 @@
     color: white;
     transition: transform 0.5s;
 }
+
+
 
 #home header nav {
     border-top: 1px solid white;
@@ -92,6 +96,7 @@
         transform: translateX(calc(-100% - 80px));
         align-items: end;
         transition: none;
+        height: 100px;
     }
 
     #home header .menu nav ul li a {
