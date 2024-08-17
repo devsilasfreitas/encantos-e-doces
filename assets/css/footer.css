@@ -1,0 +1,47 @@
+footer {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    gap: 20px;
+    padding: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    width: 80%;
+    margin: -10%;
+}
+
+footer li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+footer p a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    footer section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30%;
+    }
+
+    footer img {
+        width: 20%;
+    }
+
+    footer p {
+        margin-top: 20px;
+    }
+}
